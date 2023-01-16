@@ -1,12 +1,52 @@
+
 .App {
   text-align: center;
+}
+.wrap{
+  max-width: 1200px;
+  margin: auto;
+}
+.bottomBorder {
+  border-bottom: 1px solid #f3f0f0;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.customInput {
+  border: 1px solid #aaabad;
+  border-radius: 3px;
+  padding: 2px 8px;
+  width: 100%;
+  font-size: 14px;
+}
+.customButton {
+  height: 32px;
+  font-size: 14px;
+  border-radius: 3px;
+  min-width: 32px;
+  padding: 5px 8px;
+  gap: 5px;
+  transition: 0.3s;
+  background-color: brown;
+  color:beige;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
